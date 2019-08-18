@@ -1,0 +1,187 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "creationData": {
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+	  "src": "Construct2",
+      "projectGuid": "00000000-0000-0000-0000-000000000000",
+	  "lastModifiedDate": 1565947443000,
+      "creationDate": 1565947443000
+    },
+    "sourceDirectory": "www",
+    "startFile": "index.html",
+    "cordovaPluginsDirectory": "plugins",
+    "cordovaPlugins": [
+		{
+			"id": "cordova-plugin-device",
+			"originType": "cordova.io",
+			"version": "?",
+			"selectedState": "Included"
+		},
+		{
+			"id": "cordova-plugin-file",
+			"originType": "cordova.io",
+			"version": "?",
+			"selectedState": "Included"
+		},
+		{
+			"id": "cordova-plugin-httpd",
+			"originType": "cordova.io",
+			"version": "?",
+			"selectedState": "Included"
+		},
+		{
+			"id": "cordova-plugin-inappbrowser",
+			"originType": "cordova.io",
+			"version": "?",
+			"selectedState": "Included"
+		},
+		{
+			"id": "cordova-plugin-media",
+			"originType": "cordova.io",
+			"version": "?",
+			"selectedState": "Included"
+		},
+		{
+			"id": "cordova-plugin-splashscreen",
+			"originType": "cordova.io",
+			"version": "?",
+			"selectedState": "Included"
+		},
+		{
+			"id": "cordova-plugin-statusbar",
+			"originType": "cordova.io",
+			"version": "?",
+			"selectedState": "Included"
+		},
+		{
+			"id": "cordova-plugin-wkwebview-engine",
+			"originType": "cordova.io",
+			"version": "?",
+			"selectedState": "Included"
+		}
+    ],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "name_": "Android",
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
+        "preferences_": {
+          "android-minSdkVersion": "0",
+          "android-targetSdkVersion": "23",
+          "android-installLocation": "auto",
+		  "android-signed": true,
+		  "Fullscreen": true,
+		  "Orientation": "portrait"
+        },
+        "isActive_": true,
+        "appName_": "Public Health Data Management System",
+        "appID_": "com.RUTHAN POLRACH .app",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": ["*"],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "market:*"
+          ],
+          "navigation": []
+        },
+        "certificateId_": "",
+		"addlPermissions_": "ACCESS_COARSE_LOCATION;ACCESS_FINE_LOCATION;CAMERA;VIBRATE",
+        "appVersion_": "1.2",
+        "appVersionCode_": "1"
+      },
+      "iOS": {
+        "platform_": "ios",
+		"runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "cordovaCLIVersion_": "?",
+        "preferences_": {
+          "ios-target": "8",
+          "ios-configuration": "adhoc",
+		  "Fullscreen": true,
+		  "Orientation": "portrait"
+        },
+        "isActive_": true,
+        "appName_": "Public Health Data Management System",
+        "appID_": "com.RUTHAN POLRACH .app",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": ["*"],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "itms:*",
+            "itms-apps:*"
+          ],
+          "navigation": []
+        },
+        "certificateId_": "",
+        "appVersion_": "1.2",
+        "appVersionCode_": "1"
+      },
+      "Windows8": {
+        "platform_": "windows8",
+		"runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "cordovaCLIVersion_": "?",
+        "preferences_": {
+          "windows-publisher-display-name": "",
+          "windows-publisher-id": "",
+		  "Fullscreen": true,
+		  "Orientation": "portrait"
+        },
+        "isActive_": true,
+        "appName_": "Public Health Data Management System",
+        "appID_": "com.RUTHAN POLRACH .app",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": ["*"],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*"
+          ],
+          "navigation": []
+        },
+        "certificateId_": "",
+        "appVersion_": "1.2",
+        "appVersionCode_": "1"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "Public Health Data Management System",
+        "appID_": "com.RUTHAN POLRACH .app",
+        "appVersion_": "1.2"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "Public Health Data Management System",
+        "appID_": "com.RUTHAN POLRACH .app",
+        "appVersion_": "1.2"
+      }
+    }
+  }
+}
