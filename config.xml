@@ -1,0 +1,38 @@
+01
+	<?xml version="1.0" encoding="UTF-8" ?>
+02
+	<widget xmlns   = "https://polrach.github.io/PHDMS_Ver-1.5/"
+03
+	    xmlns:gap   = "http://phonegap.com/ns/1.0"
+04
+	    id          = "PHDMS"
+05
+	    versionCode = "1.0"
+06
+	    version     = "1.5.0" >
+07
+	 
+08
+	<!-- versionCode is optional and Android only -->
+09
+	 
+10
+	  <name>Photohunt Game</name>
+11
+	 
+12
+	  <description>
+13
+	      Photohunt Game.
+14
+	  </description>
+15
+	 
+16
+	  <author href="https://www.huaykrachaohealthcenter.com/" email="siwapol2518@gmail.com">
+17
+	      kruchian p.
+18
+	  </author>
+19
+	</widget>
